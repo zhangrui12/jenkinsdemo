@@ -10,6 +10,6 @@ public class Hello {
 
     @RequestMapping("/hello")
     public String hello(){
-        return "Hello, " + new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date());
+        return "Hello, liaohua" + new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date());
     }
 }
